@@ -1,0 +1,55 @@
+---
+layout: page
+title: Technology
+---
+
+This course is technology-intensive. This means we'll be using a lot of platforms, software, and systems that are likely new to you. Please be patient while we get ourselves set up at the beginning of the semester; it will likely take us two weeks to get ourselves fully up and running. (And we'll even add some technology along the way that isn't listed here.) There will be a lot to cover, but much of it is very, very straightforward. We'll spend a bunch of the first day's lab getting all the plumbing hooked up.
+
+There are three major technological challenges this semester: [breaking out of the learning management system](#lms); [blogging](#blogging); and [writing code](#coding). I have very intentionally taken my cues from the development community for these tools, keeping us as "close to the metal" as possible.
+
+### <a id="lms"></a>Breaking out of Blackboard
+Blackboard sucks.
+
+So we're not using it. One of the major functions of Blackboard is to distribute information in a reasonably clear and consistent manner: to host a syllabus, readings, send out announcements, distribute assignment parameters. One of the really big problems of Blackboard is that it tries to be everything any professor might ever need, which means it's terribly bloated. It's also slow, since it wasn't built to have wikis or blogs. And it's designed horribly, since it needs to go through so many layers of corporate and university bureaucracy. (Apparently, there are less awful alternatives, like Canvas. Even still.) It does have the value of being a single *thing*, more or less. Whatever you need, there it is.
+
+If we're not using Blackboard, that means we actually need to patch together various things that are really good at what they do, but they won't be individual things. So, to replace Blackboard, we will be using a few different platforms:
+
+* **This website!** (it's built using Jekyll; see [blogging](#blogging), below). This has what all would normally go in a syllabus—the stuff that doesn't really change over the semester—along with a lot of other, related information (like this page!), along with a blog that will serve as one of the primary paths for announcements.
+
+* **[Slack](http://slack.com).** Slack is a collaboration tool that is commonly used in various tech industries. It's free (as in beer, at least for us), and it will serve as our only walled garden. For that reason, Slack will host ongoing online discussions and also any readings distributed by PDF.
+
+* **[Google Calendar](http://calendar.google.com).** This is probably the happiest-making thing of all. Instead of a printed or HTML-based schedule, we'll have a nice, dynamic calendar that can sync across all the places: the website, Slack, your own calendaring system on your computer, iPhone, whatever.
+
+* **[Calendly](https://calendly.com/scr-wayne-edu/20min).** I use this little ditty of a signup system for office hours. It integrates nicely with Google Calendar.
+
+* These are the main tools, but if it turns out we collectively decide we want slightly more intrusive methods of distributing information, I will either patch up a MailChimp list (that runs off the RSS feed for my blog) or a Google Groups email group. I suspect I won't need to do that, as long as folks keep up on Slack and Feedly.
+
+### <a name="blogging"></a>Blogging
+Blogs aren't newfangled, but Blogger and WordPress.com are ad-supported (ick), and WordPress.org is a bloated mess (not as bad as Blackboard, to be sure). Also, to keep us close to the metal and make sure that you get accustomed very quickly to GitHub workflows, here's what we're using:
+
+* **[Jekyll](http://jekyllrb.com)**. Jekyll is a statically generated, relatively easy, light, and fast markdown blogging system. (As opposed to Blogger and WordPress, which are dynamically generated). This means that instead of requiring a server to keep a big content management application open all the time, and then querying a database to serve a page, Jekyll sites are plain old static HTML that live on a server: it's computationally minimalistic. However, it does require just a *little* more effort than a CMS like WordPress.
+
+* **[GitHub Pages](https://pages.github.com/).** [GitHub](https://github.com) is the largest host of open-source software in the world. It is built around a technology called [git](https://en.wikipedia.org/wiki/Git_(software)), which is, of all things, a version control system. GitHub Pages is effectively free web hosting, and it's really, really simple to boot, once you get the hang of git. The reason I'm making you write your blogs with Jekyll and GitHub pages is to force you to get the hang of git.
+
+* **[GitHub Desktop](https://desktop.github.com/).** Git is a program that is customarily used at the command-line (or CLI, for "command-line interface", as opposed to GUI, or "graphical user interface"). For various reasons (not least of which is to avoid the learning curve as much as possible), I am avoiding as much as possible the CLI. Enter GitHub Desktop, which brings git version control and workflow into the GUI. This will make our lives much, much easier.
+
+* **[Atom](https://atom.io).** Atom is GitHub's code editor. It plays very nice indeed with git workflows, and doubles as a very nice minimalistic text editor. (I have started using it as a writing platform, even, in place of Scrivener, which is what I used to use for my writing. I'll be happy to show you how.) Again, this is to get you used to using our coding tools in more familiar contexts, so that you become fluent in the software for coding very quickly.
+
+* **[Markdown](https://help.github.com/articles/markdown-basics/).** Jekyll and GitHub pages allow (or require) authors to write in *markdown*, which you already know, even if you don't know it. Markdown is a way of putting some basic formatting in plain text. So to make something italic, you put asterisks around it, like this: *\*italic\**; to make something bold, you use two asterisks: **\*\*bold\*\***. There are a couple of different markdown systems and workflows. Because we'll be using GitHub pages, we'll be using a system called (rather obviously) [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), or gfm. If you're anything like me, you'll enjoy writing in markdown so much better than the awful bloatware of Microsoft Word, or the mostly terrible WYSIWYG HTML editors familiar from Blackboard or WordPress.
+
+* **[Feedly](http://feedly.com).** Since y'all will be writing blogs, and will be required to read each of those blogs, an RSS reader is helpful. I have had a great many problems with RSS in the recent past, but if we can make it work, Feedly would be an ideal solution. (If it doesn't work, I will—as I have in the recent past—host an RSS reader that will work much better.)
+
+### <a name="coding"></a>Writing Code
+Writing code will be one of the primary activities of lab. (The other activity will be harder to track and more conceptual: learning about the basic concepts of computer programming, which is not really the same thing as learning to write code.) Thankfully, we don't write code in Word. We will be writing primarily in JavaScript, which is the most important language on the Web.
+
+* **[p5.js](http://p5js.org).** We will be writing in JavaScript, but we'll be writing inside a walled garden called p5.js, which is the JavaScript implementation of [Processing](http://processing.org). p5.js makes interactive graphics far easier than they would be otherwise.
+
+* **[p5.js IDE].** The p5.js people have helpfully provided an IDE, or "integrated development environment," for p5. This simply means it's a specific code editor for p5. We'll be using this at the beginning of the term, although we will quickly transition away from the IDE towards Atom.
+
+* **Atom.** You'll be using Atom to write your blog posts, but really, it's a code editor. It will be the primary place you'll be writing code. There are no real differences between using Atom for either of these. We'll probably only use a small portion of what Atom is capable of; it's extensible and hackable in the extreme. I will provide a standard Atom setup for use in the course with a few handy plugins (e.g. a linter, which will help you find problems in your code).
+
+* **[Google Chrome](http://www.google.com/chrome).** Chrome is the friendliest browser for web development. in principle, what we write in JavaScript should work on any browser. That said, it's easiest to track down bugs using Chrome's development tools.
+
+* **GitHub & GitHub Desktop.** Projects and support code will be distributed by GitHub, in our GitHub organization, [http://github.com/eng7006/](http://github.com/eng7006/). You'll fork a project, write some code, make some commits, and submit a pull request to turn it in. (Don't worry, this will be explained in due time.) GitHub will also serve as a site for some technical discussion.
+
+In addition to these, over the course of the semester, we'll make some use of a few different things, among them [unit testing](http://mochajs.org), [Makey Makeys](http://www.makeymakey.com), [Twine](http://twinery.org), and [node.js](http://nodejs.org). We will learn at each step.
