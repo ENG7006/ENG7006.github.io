@@ -5,7 +5,7 @@ permalink: /boilerplate/
 ---
 What follows is the required legalistic information, not course specific, that I have dutifully copied-and-pasted (and occasionally lightly modified) from the relevant Department, College, or University materials.
 
-### Required Learning Outcomes
+### Required, Standardized Learning Outcomes
 * Demonstrate knowledge of foundational theoretical and critical texts.
 * Historicize and contextualize foundational theoretical and critical texts.
 * Employ critical methodologies appropriate both to the practice of theorizing and to their disciplines.
