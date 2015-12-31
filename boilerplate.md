@@ -1,6 +1,7 @@
 ---
 layout: inner
 title: Boilerplate
+permalink: /boilerplate/
 ---
 What follows is the required legalistic information, not course specific, that I have dutifully copied-and-pasted (and occasionally lightly modified) from the relevant Department, College, or University materials.
 

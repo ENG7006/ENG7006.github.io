@@ -1,6 +1,8 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+kramdown:
+  input:          GFM
+highlighter:      rouge
 gems:             [jekyll-paginate, jekyll-gist]
 
 # Permalinks
