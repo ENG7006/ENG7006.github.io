@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Test Welcome Post
+categories: testing
 ---
 Welcome to the **ENG 7006 course website**. The menu on the left should get you all the places, but here's a guide anyway:
 
