@@ -11,6 +11,7 @@ A number of the tools that we are using have their own instruction sets:
 * GitHub desktop comes with its own beginning set of instructions the first time you use it.
 * You can also access a robust set of help materials online, e.g. [Getting Started with GitHub Desktop](https://help.github.com/desktop/guides/getting-started/)
 * Slack will likely be quite intuitive, but if you need help getting started, you can check out their [Getting Started with Slack](https://eng7006.slack.com/getting-started)
+* Feedly will also be intuitive, but here's how to get started with them: [Feedly Tutorial](http://blog.feedly.com/feedly-visual-tutorial/)
 
 ### Basic git & GitHub Workflow for ENG 7006
 That said, here is probably the most complicated and common thing we will do all semester, use git to save and deploy work:
