@@ -1,5 +1,5 @@
 ---
-title: Welcome to ENG 7006!
+title: Blogging with Jekyll
 layout: post
 category: announcements, tech, jekyll, how-to
 ---
