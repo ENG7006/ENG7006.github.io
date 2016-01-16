@@ -11,7 +11,7 @@ permalink: /blog/categories/
 <h3 class="category" id="{{ word }}">{{ word }}</h3>
 <ul>
 {% for post in site.categories[word] %}{% if post.title != null %}
-<li><span>{{ post.date | date: "%b %d" }}</span>: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+<li><span>{{ post.date | date: "%b %d" }}</span>: <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
 {% endunless %}{% endfor %}
