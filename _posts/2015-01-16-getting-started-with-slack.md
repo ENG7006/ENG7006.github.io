@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Slack
 layout: post
-category: announcements, tech, slack, how-to
+categories: announcements tech slack how-to
 ---
 I have now sent out invitations for all of you to join our ENG 7006 Slack team. Slack is pretty self-explanatory, especially if you do some poking around and watch the getting started tutorial. But I want to make sure you notice a few things:
 

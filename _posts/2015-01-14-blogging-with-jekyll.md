@@ -1,7 +1,7 @@
 ---
 title: Blogging with Jekyll
 layout: post
-category: announcements, tech, jekyll, how-to
+categories: announcements tech jekyll how-to
 ---
 This semester, we'll be blogging with Jekyll, a hacker-ish blogging platform. This is explicitly designed to get you "close to the metal," using our coding tools for blogging, too: GitHub and Atom.
 

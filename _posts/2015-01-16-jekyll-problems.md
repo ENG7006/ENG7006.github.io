@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Jekyll
 layout: post
-category: tech, how-to, jekyll, announcements
+categories: tech how-to jekyll announcements
 ---
 Thank you for bearing with me on Thursday as the technology broke. (Technology always breaks.)
 

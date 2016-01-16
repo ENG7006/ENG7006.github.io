@@ -1,7 +1,7 @@
 ---
 title: Getting Set Up with Our Tech
 layout: post
-category: announcements, tech, how-to
+categories: announcements tech how-to
 ---
 This post is meant to document, and preview, some of the tech setup we'll need to do at the beginning of the semester. What every student will need to do:
 1. Sign up for a GitHub account. This can be done right at [GitHub's home page](https://github.com/).
