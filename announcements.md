@@ -5,7 +5,7 @@ permalink: /announce/
 ---
 <div>
   {% for post in site.categories['announcements'] %}
-  <div class="post">
+  <div class="post-list">
     <h3 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
