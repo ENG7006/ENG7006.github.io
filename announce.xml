@@ -16,7 +16,7 @@ permalink: /announce/atom.xml
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.categories['announcements'] %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
