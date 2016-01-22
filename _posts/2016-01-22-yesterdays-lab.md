@@ -22,3 +22,5 @@ As for refactoring, please revise your code according to the following spec:
 * It is up to you if you would like to use objects. We will cover that ground again next lab.
 
 I am sorry that my trip to Toronto falls at an inopportune time. If you felt you struggled in lab last night, please do not despair. Instead, please reach out to me: we will have a coding meetup before class on Thursday, and I will be available all day next Friday to meet.
+
+**Update**: I've also added links to related Daniel Shiffman videos at the beginning of Coding Lessons 1 & 2. This should give you another perspective on matters. We don't always stress the same things or take the same approaches, but if his stuff resonates more than my teaching, then by all means, follow his curriculum in parallel with ours.
