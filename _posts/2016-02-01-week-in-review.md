@@ -1,5 +1,5 @@
 ---
-title: McLuhan: Week-in-Review
+title: "McLuhan: Week-in-Review"
 layout: post
 categories: seminar week-in-review
 ---

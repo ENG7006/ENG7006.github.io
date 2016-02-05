@@ -3,7 +3,7 @@ markdown:         kramdown
 kramdown:
   input:          GFM
 # highlighter:      rouge # for local testing
-highlighter:      pygments # for github.io deployment
+highlighter:      rouge # for github.io deployment
 gems:             [jekyll-paginate, jekyll-gist]
 
 # Permalinks
